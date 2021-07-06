@@ -1,0 +1,250 @@
+body {
+    font-family: Concordia_Font;
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+    /* ------------ BACKGROUNDS ---------------------*/
+    background-image: url(../sources/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*-------------------------------------------------*/
+
+@font-face {
+    font-family: Concordia_Font;
+    src: url('../fonts/BigNoodleTitling.ttf');
+}
+
+footer { background-image: url(../sources/concordia-footer.png);
+    height: 175px;
+
+}
+/*------TAGS------*/
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 15px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.chip:hover {
+    background-color: #62D1B5;
+}
+/*--------------*/
+
+/*-------sign-up/register model-----*/
+
+/*TODO: Colors*/
+.modal-content {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.modal-content>.modal-heading {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #62D1B5;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.modal-content>.modal-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.modal-content>.modal-heading a.active{
+    color: #62D1B5;
+    font-size: 18px;
+}
+.modal-content>.modal-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.modal-content input[type="text"],.modal-content input[type="email"],.modal-content input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.modal-content input:hover,
+.modal-content input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #62D1B5;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #62D1B5;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #62D1B5;
+    border-color: #62D1B5;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #62D1B5;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #62D1B5;
+}
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #62D1B5;
+    border-color: #62D1B5;
+}
+/*--------------- Carousel -----------------*/
+.carouselImg {
+    width: 100%;
+    height: auto;
+}
+/*#myCarousel .carousel-caption {*/
+    /*left:0;*/
+    /*right:0;*/
+    /*bottom:0;*/
+    /*text-align:left;*/
+    /*padding:10px;*/
+    /*background:rgba(0,0,0,0.6);*/
+    /*text-shadow:none;*/
+/*}*/
+/*------------------ Homepage ---------------------*/
+.homepage-searchbar button{
+    border:0;
+    background:transparent;
+}
+.homepage-searchbar .input-group-addon{
+    background: white !important;
+}
+.homepage-searchbar .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+
+
+/*--------------------- Navbar ----------------------*/
+.navbar {
+    background-color: rgba(255, 255, 255, 1.00);
+}
+/*------------------------------------------*/
+/*.carousel {*/
+    /*!*position: fixed;*!*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*!*overflow: hidden;*!*/
+    /*!*z-index: 0;*!*/
+/*}*/
+.content {
+    background-color: rgba(255, 255, 255, 0.85);
+    /*z-index: 200;*/
+    /*margin-bottom: 3000px;*/
+    /*position: relative;*/
+}
+
+
+/*.background {*/
+    /*background-image: url("/sources/wood.png");*/
+    /*background-repeat: repeat;*/
+    /*background-size: auto;*/
+    /*background-attachment: fixed;*/
+    /*!*position: relative;*!*/
+    /*!*z-index: 1000;*!*/
+/*}*/
+
+@media (max-width: 767px) {
+   .carousel {
+       display: none;
+   }
+    .twitterfeed {
+        display: none;
+    }
+}
+
+.couple  {
+    display: inline;
+}
+
+@media (min-width: 992px) {
+    .background {
+        top: 0px;
+    }
+    /*footer {*/
+        /*top: 975px;*/
+    /*}*/
+}
+
+/*@media (min-width: 992px) {*/
+    /*.background {*/
+        /*top: 992px;*/
+    /*}*/
+/*}*/
+
+
+/*--------------------- EventSearch ----------------------*/
+
+.unit-description {
+	width: 500px;
+}
+
+.unit-image {
+	height: 160px;
+	width: 160px;
+}
+
